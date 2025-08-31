@@ -1,0 +1,106 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+ /* Shared CSS*/
+ .bg2 {
+    background-color: #FFF8F3;
+ }
+
+.text-primary {
+    color: #FD6E0A;
+}
+.dark-1 {
+    color: #181818;
+}
+
+.dark-2 {
+    color: #474747;
+}
+.dark-3 {
+    color: #757575;
+}
+.dark-5 {
+    color: #D1D1D1;
+}
+
+.main-button {
+    background-color: #FD6E0A;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+}
+
+
+
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/* Nav */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    }
+
+nav ul li {
+    list-style: none;
+    margin: 30px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+
+/* Hero Section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px 0px 250px;
+}
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin: 0px;
+        }
+
+.banner-title {
+    font-size: 85px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.banner-description {
+    color: #474747;
+}
+
+.heroimage {
+display: flex;
+}
