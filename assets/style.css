@@ -97,8 +97,14 @@ main section{
     border: none;
     padding: 18px 35px;
     font-size: 20px;
-}
+    cursor: pointer;
+    
 
+    transition: background-color 0.3s ease;
+}
+.main-button:hover{
+    background-color: crimson;
+}
 
 
 
@@ -164,4 +170,28 @@ nav ul a {
 
 .heroimage {
 display: flex;
+}
+/* resumepart */
+.resume-con{
+    display: flex;
+   gap: 24px;
+}
+.resume hr{
+    margin:30px 5px ;
+}
+/* footer */
+/*Footer*/
+footer {
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+} 
+footer input[type="text"], [type="email"], textarea {
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
 }
